@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+
+# Manim rendered output (large files)
+media/
+
+# Generated audio/video
+narration.aiff
+narration.mp3
+SolveEquation/narration.wav
+SolveEquation/SolveEquation_with_audio.mp4
+
+# API keys — never commit these
+.env
+secrets.sh
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
